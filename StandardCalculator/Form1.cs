@@ -31,5 +31,20 @@ namespace StandardCalculator
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
