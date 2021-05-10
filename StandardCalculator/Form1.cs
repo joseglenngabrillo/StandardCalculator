@@ -46,5 +46,10 @@ namespace StandardCalculator
         {
             
         }
+
+        private void buttontimes_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
