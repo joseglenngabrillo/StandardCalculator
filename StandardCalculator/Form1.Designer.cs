@@ -43,7 +43,7 @@ namespace StandardCalculator
             this.btn0 = new System.Windows.Forms.Button();
             this.btn_dot = new System.Windows.Forms.Button();
             this.button_divide = new System.Windows.Forms.Button();
-            this.button_times = new System.Windows.Forms.Button();
+            this.btn_times = new System.Windows.Forms.Button();
             this.btn_minus = new System.Windows.Forms.Button();
             this.btn_plus = new System.Windows.Forms.Button();
             this.btn_equal = new System.Windows.Forms.Button();
@@ -208,18 +208,18 @@ namespace StandardCalculator
             this.button_divide.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button_divide.UseVisualStyleBackColor = true;
             // 
-            // button_times
+            // btn_times
             // 
-            this.button_times.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button_times.ForeColor = System.Drawing.Color.OrangeRed;
-            this.button_times.Location = new System.Drawing.Point(217, 104);
-            this.button_times.Name = "button_times";
-            this.button_times.Size = new System.Drawing.Size(50, 50);
-            this.button_times.TabIndex = 15;
-            this.button_times.Text = "x";
-            this.button_times.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button_times.UseVisualStyleBackColor = true;
-            this.button_times.Click += new System.EventHandler(this.buttontimes_Click);
+            this.btn_times.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_times.ForeColor = System.Drawing.Color.OrangeRed;
+            this.btn_times.Location = new System.Drawing.Point(217, 104);
+            this.btn_times.Name = "btn_times";
+            this.btn_times.Size = new System.Drawing.Size(50, 50);
+            this.btn_times.TabIndex = 15;
+            this.btn_times.Text = "x";
+            this.btn_times.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btn_times.UseVisualStyleBackColor = true;
+            this.btn_times.Click += new System.EventHandler(this.buttontimes_Click);
             // 
             // btn_minus
             // 
@@ -277,7 +277,7 @@ namespace StandardCalculator
             this.Controls.Add(this.btn_equal);
             this.Controls.Add(this.btn_plus);
             this.Controls.Add(this.btn_minus);
-            this.Controls.Add(this.button_times);
+            this.Controls.Add(this.btn_times);
             this.Controls.Add(this.button_divide);
             this.Controls.Add(this.btn_dot);
             this.Controls.Add(this.btn0);
@@ -318,7 +318,7 @@ namespace StandardCalculator
         private System.Windows.Forms.Button btn0;
         private System.Windows.Forms.Button btn_dot;
         private System.Windows.Forms.Button button_divide;
-        private System.Windows.Forms.Button button_times;
+        private System.Windows.Forms.Button btn_times;
         private System.Windows.Forms.Button buttonminus;
         private System.Windows.Forms.Button btn_plus;
         private System.Windows.Forms.Button btn_equal;
