@@ -46,7 +46,7 @@ namespace StandardCalculator
             this.button_times = new System.Windows.Forms.Button();
             this.button_minus = new System.Windows.Forms.Button();
             this.button_plus = new System.Windows.Forms.Button();
-            this.button_equal = new System.Windows.Forms.Button();
+            this.btn_equal = new System.Windows.Forms.Button();
             this.output = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -245,17 +245,17 @@ namespace StandardCalculator
             this.button_plus.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button_plus.UseVisualStyleBackColor = true;
             // 
-            // button_equal
+            // btn_equal
             // 
-            this.button_equal.BackColor = System.Drawing.Color.OrangeRed;
-            this.button_equal.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button_equal.Location = new System.Drawing.Point(217, 272);
-            this.button_equal.Name = "button_equal";
-            this.button_equal.Size = new System.Drawing.Size(50, 50);
-            this.button_equal.TabIndex = 18;
-            this.button_equal.Text = "=";
-            this.button_equal.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button_equal.UseVisualStyleBackColor = false;
+            this.btn_equal.BackColor = System.Drawing.Color.OrangeRed;
+            this.btn_equal.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_equal.Location = new System.Drawing.Point(217, 272);
+            this.btn_equal.Name = "btn_equal";
+            this.btn_equal.Size = new System.Drawing.Size(50, 50);
+            this.btn_equal.TabIndex = 18;
+            this.btn_equal.Text = "=";
+            this.btn_equal.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btn_equal.UseVisualStyleBackColor = false;
             // 
             // output
             // 
@@ -274,7 +274,7 @@ namespace StandardCalculator
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(290, 338);
             this.Controls.Add(this.output);
-            this.Controls.Add(this.button_equal);
+            this.Controls.Add(this.btn_equal);
             this.Controls.Add(this.button_plus);
             this.Controls.Add(this.button_minus);
             this.Controls.Add(this.button_times);
@@ -321,7 +321,7 @@ namespace StandardCalculator
         private System.Windows.Forms.Button button_times;
         private System.Windows.Forms.Button buttonminus;
         private System.Windows.Forms.Button button_plus;
-        private System.Windows.Forms.Button button_equal;
+        private System.Windows.Forms.Button btn_equal;
         private System.Windows.Forms.TextBox output;
         private System.Windows.Forms.Button button_minus;
     }
