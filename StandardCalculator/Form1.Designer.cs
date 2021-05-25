@@ -41,7 +41,7 @@ namespace StandardCalculator
             this.btn8 = new System.Windows.Forms.Button();
             this.btn9 = new System.Windows.Forms.Button();
             this.btn0 = new System.Windows.Forms.Button();
-            this.button_dot = new System.Windows.Forms.Button();
+            this.btn_dot = new System.Windows.Forms.Button();
             this.button_divide = new System.Windows.Forms.Button();
             this.button_times = new System.Windows.Forms.Button();
             this.button_minus = new System.Windows.Forms.Button();
@@ -185,16 +185,16 @@ namespace StandardCalculator
             this.btn0.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btn0.UseVisualStyleBackColor = true;
             // 
-            // button_dot
+            // btn_dot
             // 
-            this.button_dot.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button_dot.Location = new System.Drawing.Point(151, 272);
-            this.button_dot.Name = "button_dot";
-            this.button_dot.Size = new System.Drawing.Size(50, 50);
-            this.button_dot.TabIndex = 13;
-            this.button_dot.Text = ".";
-            this.button_dot.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button_dot.UseVisualStyleBackColor = true;
+            this.btn_dot.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_dot.Location = new System.Drawing.Point(151, 272);
+            this.btn_dot.Name = "btn_dot";
+            this.btn_dot.Size = new System.Drawing.Size(50, 50);
+            this.btn_dot.TabIndex = 13;
+            this.btn_dot.Text = ".";
+            this.btn_dot.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btn_dot.UseVisualStyleBackColor = true;
             // 
             // button_divide
             // 
@@ -279,7 +279,7 @@ namespace StandardCalculator
             this.Controls.Add(this.button_minus);
             this.Controls.Add(this.button_times);
             this.Controls.Add(this.button_divide);
-            this.Controls.Add(this.button_dot);
+            this.Controls.Add(this.btn_dot);
             this.Controls.Add(this.btn0);
             this.Controls.Add(this.btn9);
             this.Controls.Add(this.btn8);
@@ -316,7 +316,7 @@ namespace StandardCalculator
         private System.Windows.Forms.Button btn8;
         private System.Windows.Forms.Button btn9;
         private System.Windows.Forms.Button btn0;
-        private System.Windows.Forms.Button button_dot;
+        private System.Windows.Forms.Button btn_dot;
         private System.Windows.Forms.Button button_divide;
         private System.Windows.Forms.Button button_times;
         private System.Windows.Forms.Button buttonminus;
