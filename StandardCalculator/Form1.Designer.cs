@@ -44,7 +44,7 @@ namespace StandardCalculator
             this.btn_dot = new System.Windows.Forms.Button();
             this.button_divide = new System.Windows.Forms.Button();
             this.button_times = new System.Windows.Forms.Button();
-            this.button_minus = new System.Windows.Forms.Button();
+            this.btn_minus = new System.Windows.Forms.Button();
             this.btn_plus = new System.Windows.Forms.Button();
             this.btn_equal = new System.Windows.Forms.Button();
             this.output = new System.Windows.Forms.TextBox();
@@ -221,17 +221,17 @@ namespace StandardCalculator
             this.button_times.UseVisualStyleBackColor = true;
             this.button_times.Click += new System.EventHandler(this.buttontimes_Click);
             // 
-            // button_minus
+            // btn_minus
             // 
-            this.button_minus.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button_minus.ForeColor = System.Drawing.Color.OrangeRed;
-            this.button_minus.Location = new System.Drawing.Point(217, 160);
-            this.button_minus.Name = "button_minus";
-            this.button_minus.Size = new System.Drawing.Size(50, 50);
-            this.button_minus.TabIndex = 16;
-            this.button_minus.Text = "-";
-            this.button_minus.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button_minus.UseVisualStyleBackColor = true;
+            this.btn_minus.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_minus.ForeColor = System.Drawing.Color.OrangeRed;
+            this.btn_minus.Location = new System.Drawing.Point(217, 160);
+            this.btn_minus.Name = "btn_minus";
+            this.btn_minus.Size = new System.Drawing.Size(50, 50);
+            this.btn_minus.TabIndex = 16;
+            this.btn_minus.Text = "-";
+            this.btn_minus.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btn_minus.UseVisualStyleBackColor = true;
             // 
             // btn_plus
             // 
@@ -276,7 +276,7 @@ namespace StandardCalculator
             this.Controls.Add(this.output);
             this.Controls.Add(this.btn_equal);
             this.Controls.Add(this.btn_plus);
-            this.Controls.Add(this.button_minus);
+            this.Controls.Add(this.btn_minus);
             this.Controls.Add(this.button_times);
             this.Controls.Add(this.button_divide);
             this.Controls.Add(this.btn_dot);
@@ -323,7 +323,7 @@ namespace StandardCalculator
         private System.Windows.Forms.Button btn_plus;
         private System.Windows.Forms.Button btn_equal;
         private System.Windows.Forms.TextBox output;
-        private System.Windows.Forms.Button button_minus;
+        private System.Windows.Forms.Button btn_minus;
     }
 }
 
