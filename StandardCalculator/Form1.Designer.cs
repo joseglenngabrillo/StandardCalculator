@@ -42,7 +42,7 @@ namespace StandardCalculator
             this.btn9 = new System.Windows.Forms.Button();
             this.btn0 = new System.Windows.Forms.Button();
             this.btn_dot = new System.Windows.Forms.Button();
-            this.button_divide = new System.Windows.Forms.Button();
+            this.btn_divide = new System.Windows.Forms.Button();
             this.btn_times = new System.Windows.Forms.Button();
             this.btn_minus = new System.Windows.Forms.Button();
             this.btn_plus = new System.Windows.Forms.Button();
@@ -196,17 +196,17 @@ namespace StandardCalculator
             this.btn_dot.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btn_dot.UseVisualStyleBackColor = true;
             // 
-            // button_divide
+            // btn_divide
             // 
-            this.button_divide.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button_divide.ForeColor = System.Drawing.Color.OrangeRed;
-            this.button_divide.Location = new System.Drawing.Point(217, 48);
-            this.button_divide.Name = "button_divide";
-            this.button_divide.Size = new System.Drawing.Size(50, 50);
-            this.button_divide.TabIndex = 14;
-            this.button_divide.Text = "/";
-            this.button_divide.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button_divide.UseVisualStyleBackColor = true;
+            this.btn_divide.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_divide.ForeColor = System.Drawing.Color.OrangeRed;
+            this.btn_divide.Location = new System.Drawing.Point(217, 48);
+            this.btn_divide.Name = "btn_divide";
+            this.btn_divide.Size = new System.Drawing.Size(50, 50);
+            this.btn_divide.TabIndex = 14;
+            this.btn_divide.Text = "/";
+            this.btn_divide.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btn_divide.UseVisualStyleBackColor = true;
             // 
             // btn_times
             // 
@@ -278,7 +278,7 @@ namespace StandardCalculator
             this.Controls.Add(this.btn_plus);
             this.Controls.Add(this.btn_minus);
             this.Controls.Add(this.btn_times);
-            this.Controls.Add(this.button_divide);
+            this.Controls.Add(this.btn_divide);
             this.Controls.Add(this.btn_dot);
             this.Controls.Add(this.btn0);
             this.Controls.Add(this.btn9);
@@ -317,7 +317,7 @@ namespace StandardCalculator
         private System.Windows.Forms.Button btn9;
         private System.Windows.Forms.Button btn0;
         private System.Windows.Forms.Button btn_dot;
-        private System.Windows.Forms.Button button_divide;
+        private System.Windows.Forms.Button btn_divide;
         private System.Windows.Forms.Button btn_times;
         private System.Windows.Forms.Button buttonminus;
         private System.Windows.Forms.Button btn_plus;
