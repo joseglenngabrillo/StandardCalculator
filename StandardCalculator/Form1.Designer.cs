@@ -36,7 +36,7 @@ namespace StandardCalculator
             this.btn3 = new System.Windows.Forms.Button();
             this.btn4 = new System.Windows.Forms.Button();
             this.btn5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btn6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
@@ -130,16 +130,16 @@ namespace StandardCalculator
             this.btn5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btn5.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // btn6
             // 
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button6.Location = new System.Drawing.Point(151, 160);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(50, 50);
-            this.button6.TabIndex = 8;
-            this.button6.Text = "6";
-            this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button6.UseVisualStyleBackColor = true;
+            this.btn6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn6.Location = new System.Drawing.Point(151, 160);
+            this.btn6.Name = "btn6";
+            this.btn6.Size = new System.Drawing.Size(50, 50);
+            this.btn6.TabIndex = 8;
+            this.btn6.Text = "6";
+            this.btn6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btn6.UseVisualStyleBackColor = true;
             // 
             // button7
             // 
@@ -284,7 +284,7 @@ namespace StandardCalculator
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
+            this.Controls.Add(this.btn6);
             this.Controls.Add(this.btn5);
             this.Controls.Add(this.btn4);
             this.Controls.Add(this.btn3);
@@ -311,7 +311,7 @@ namespace StandardCalculator
         private System.Windows.Forms.Button btn3;
         private System.Windows.Forms.Button btn4;
         private System.Windows.Forms.Button btn5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btn6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
