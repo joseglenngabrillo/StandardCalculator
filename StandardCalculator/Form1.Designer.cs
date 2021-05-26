@@ -30,7 +30,7 @@ namespace StandardCalculator
         private void InitializeComponent()
         {
             this.buttonCE = new System.Windows.Forms.Button();
-            this.buttonC = new System.Windows.Forms.Button();
+            this.btnC = new System.Windows.Forms.Button();
             this.btn1 = new System.Windows.Forms.Button();
             this.btn2 = new System.Windows.Forms.Button();
             this.btn3 = new System.Windows.Forms.Button();
@@ -61,17 +61,17 @@ namespace StandardCalculator
             this.buttonCE.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.buttonCE.UseVisualStyleBackColor = true;
             // 
-            // buttonC
+            // btnC
             // 
-            this.buttonC.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonC.Location = new System.Drawing.Point(20, 48);
-            this.buttonC.Name = "buttonC";
-            this.buttonC.Size = new System.Drawing.Size(115, 50);
-            this.buttonC.TabIndex = 2;
-            this.buttonC.Text = "C";
-            this.buttonC.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.buttonC.UseVisualStyleBackColor = true;
-            this.buttonC.Click += new System.EventHandler(this.button3_Click);
+            this.btnC.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnC.Location = new System.Drawing.Point(20, 48);
+            this.btnC.Name = "btnC";
+            this.btnC.Size = new System.Drawing.Size(115, 50);
+            this.btnC.TabIndex = 2;
+            this.btnC.Text = "C";
+            this.btnC.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnC.UseVisualStyleBackColor = true;
+            this.btnC.Click += new System.EventHandler(this.button3_Click);
             // 
             // btn1
             // 
@@ -290,7 +290,7 @@ namespace StandardCalculator
             this.Controls.Add(this.btn3);
             this.Controls.Add(this.btn2);
             this.Controls.Add(this.btn1);
-            this.Controls.Add(this.buttonC);
+            this.Controls.Add(this.btnC);
             this.Controls.Add(this.buttonCE);
             this.MaximizeBox = false;
             this.Name = "Form1";
@@ -305,7 +305,7 @@ namespace StandardCalculator
 
         #endregion
         private System.Windows.Forms.Button buttonCE;
-        private System.Windows.Forms.Button buttonC;
+        private System.Windows.Forms.Button btnC;
         private System.Windows.Forms.Button btn1;
         private System.Windows.Forms.Button btn2;
         private System.Windows.Forms.Button btn3;
