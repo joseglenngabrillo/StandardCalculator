@@ -29,7 +29,7 @@ namespace StandardCalculator
         /// </summary>
         private void InitializeComponent()
         {
-            this.buttonCE = new System.Windows.Forms.Button();
+            this.btnCE = new System.Windows.Forms.Button();
             this.btnC = new System.Windows.Forms.Button();
             this.btn1 = new System.Windows.Forms.Button();
             this.btn2 = new System.Windows.Forms.Button();
@@ -50,16 +50,16 @@ namespace StandardCalculator
             this.output = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // buttonCE
+            // btnCE
             // 
-            this.buttonCE.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonCE.Location = new System.Drawing.Point(151, 48);
-            this.buttonCE.Name = "buttonCE";
-            this.buttonCE.Size = new System.Drawing.Size(50, 50);
-            this.buttonCE.TabIndex = 1;
-            this.buttonCE.Text = "CE";
-            this.buttonCE.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.buttonCE.UseVisualStyleBackColor = true;
+            this.btnCE.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnCE.Location = new System.Drawing.Point(151, 48);
+            this.btnCE.Name = "btnCE";
+            this.btnCE.Size = new System.Drawing.Size(50, 50);
+            this.btnCE.TabIndex = 1;
+            this.btnCE.Text = "CE";
+            this.btnCE.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnCE.UseVisualStyleBackColor = true;
             // 
             // btnC
             // 
@@ -291,7 +291,7 @@ namespace StandardCalculator
             this.Controls.Add(this.btn2);
             this.Controls.Add(this.btn1);
             this.Controls.Add(this.btnC);
-            this.Controls.Add(this.buttonCE);
+            this.Controls.Add(this.btnCE);
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.ShowIcon = false;
@@ -304,7 +304,7 @@ namespace StandardCalculator
         }
 
         #endregion
-        private System.Windows.Forms.Button buttonCE;
+        private System.Windows.Forms.Button btnCE;
         private System.Windows.Forms.Button btnC;
         private System.Windows.Forms.Button btn1;
         private System.Windows.Forms.Button btn2;
