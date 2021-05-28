@@ -179,6 +179,7 @@ namespace StandardCalculator
             this.btn9.Text = "9";
             this.btn9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btn9.UseVisualStyleBackColor = true;
+            this.btn9.Click += new System.EventHandler(this.btnNumber_Click);
             // 
             // btn0
             // 
