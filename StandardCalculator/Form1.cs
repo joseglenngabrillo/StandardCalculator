@@ -51,5 +51,10 @@ namespace StandardCalculator
         {
 
         }
+
+        private void btnNumber_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

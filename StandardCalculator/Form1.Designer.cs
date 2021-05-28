@@ -184,6 +184,7 @@ namespace StandardCalculator
             this.btn0.Text = "0";
             this.btn0.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btn0.UseVisualStyleBackColor = true;
+            this.btn0.Click += new System.EventHandler(this.btnNumber_Click);
             // 
             // btn_dot
             // 
