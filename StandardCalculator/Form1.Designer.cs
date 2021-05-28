@@ -203,6 +203,7 @@ namespace StandardCalculator
             this.btn_dot.Text = ".";
             this.btn_dot.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btn_dot.UseVisualStyleBackColor = true;
+            this.btn_dot.Click += new System.EventHandler(this.btnNumber_Click);
             // 
             // btn_divide
             // 
