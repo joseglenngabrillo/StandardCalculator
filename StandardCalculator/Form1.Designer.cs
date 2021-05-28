@@ -143,6 +143,7 @@ namespace StandardCalculator
             this.btn6.Text = "6";
             this.btn6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btn6.UseVisualStyleBackColor = true;
+            this.btn6.Click += new System.EventHandler(this.btnNumber_Click);
             // 
             // btn7
             // 
