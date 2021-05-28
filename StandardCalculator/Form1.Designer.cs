@@ -272,6 +272,7 @@ namespace StandardCalculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(290, 338);
             this.Controls.Add(this.output);
             this.Controls.Add(this.btn_equal);
