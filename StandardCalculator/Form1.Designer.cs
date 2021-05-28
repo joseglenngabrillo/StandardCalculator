@@ -131,6 +131,7 @@ namespace StandardCalculator
             this.btn5.Text = "5";
             this.btn5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btn5.UseVisualStyleBackColor = true;
+            this.btn5.Click += new System.EventHandler(this.btnNumber_Click);
             // 
             // btn6
             // 
