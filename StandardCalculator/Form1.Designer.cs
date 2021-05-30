@@ -216,6 +216,7 @@ namespace StandardCalculator
             this.btn_divide.Text = "/";
             this.btn_divide.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btn_divide.UseVisualStyleBackColor = true;
+            this.btn_divide.Click += new System.EventHandler(this.btnOperator_Click);
             // 
             // btn_times
             // 
