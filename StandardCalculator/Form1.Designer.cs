@@ -242,6 +242,7 @@ namespace StandardCalculator
             this.btn_minus.Text = "-";
             this.btn_minus.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btn_minus.UseVisualStyleBackColor = true;
+            this.btn_minus.Click += new System.EventHandler(this.btnOperator_Click);
             // 
             // btn_plus
             // 
