@@ -37,11 +37,6 @@ namespace StandardCalculator
 
         }
 
-        private void buttontimes_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnNumber_Click(object sender, EventArgs e)
         {
 

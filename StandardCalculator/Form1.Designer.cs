@@ -229,7 +229,7 @@ namespace StandardCalculator
             this.btn_times.Text = "x";
             this.btn_times.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btn_times.UseVisualStyleBackColor = true;
-            this.btn_times.Click += new System.EventHandler(this.buttontimes_Click);
+            this.btn_times.Click += new System.EventHandler(this.btnOperator_Click);
             // 
             // btn_minus
             // 
