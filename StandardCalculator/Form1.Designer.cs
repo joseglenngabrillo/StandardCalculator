@@ -60,6 +60,7 @@ namespace StandardCalculator
             this.btnCE.Text = "CE";
             this.btnCE.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnCE.UseVisualStyleBackColor = true;
+            this.btnCE.Click += new System.EventHandler(this.btnCE_Click);
             // 
             // btnC
             // 
