@@ -268,6 +268,7 @@ namespace StandardCalculator
             this.btn_equal.Text = "=";
             this.btn_equal.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btn_equal.UseVisualStyleBackColor = false;
+            this.btn_equal.Click += new System.EventHandler(this.btnEqual_Click);
             // 
             // output
             // 

@@ -22,11 +22,6 @@ namespace StandardCalculator
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
@@ -43,6 +38,11 @@ namespace StandardCalculator
         }
 
         private void btnOperator_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEqual_Click(object sender, EventArgs e)
         {
 
         }
