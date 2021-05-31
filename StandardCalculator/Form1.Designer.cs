@@ -72,7 +72,7 @@ namespace StandardCalculator
             this.btnC.Text = "C";
             this.btnC.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnC.UseVisualStyleBackColor = true;
-            this.btnC.Click += new System.EventHandler(this.button3_Click);
+            this.btnC.Click += new System.EventHandler(this.btnC_Click);
             // 
             // btn1
             // 

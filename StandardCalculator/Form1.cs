@@ -27,11 +27,6 @@ namespace StandardCalculator
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnNumber_Click(object sender, EventArgs e)
         {
 
@@ -48,6 +43,11 @@ namespace StandardCalculator
         }
 
         private void btnCE_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnC_Click(object sender, EventArgs e)
         {
 
         }
