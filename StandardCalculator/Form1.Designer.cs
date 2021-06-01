@@ -48,12 +48,13 @@ namespace StandardCalculator
             this.btn_plus = new System.Windows.Forms.Button();
             this.btn_equal = new System.Windows.Forms.Button();
             this.output = new System.Windows.Forms.TextBox();
+            this.btnDelete = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnCE
             // 
             this.btnCE.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnCE.Location = new System.Drawing.Point(151, 48);
+            this.btnCE.Location = new System.Drawing.Point(85, 48);
             this.btnCE.Name = "btnCE";
             this.btnCE.Size = new System.Drawing.Size(50, 50);
             this.btnCE.TabIndex = 1;
@@ -67,7 +68,7 @@ namespace StandardCalculator
             this.btnC.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnC.Location = new System.Drawing.Point(20, 48);
             this.btnC.Name = "btnC";
-            this.btnC.Size = new System.Drawing.Size(115, 50);
+            this.btnC.Size = new System.Drawing.Size(50, 50);
             this.btnC.TabIndex = 2;
             this.btnC.Text = "C";
             this.btnC.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -282,12 +283,23 @@ namespace StandardCalculator
             this.output.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.output.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
+            // btnDelete
+            // 
+            this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnDelete.Location = new System.Drawing.Point(151, 48);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(50, 49);
+            this.btnDelete.TabIndex = 20;
+            this.btnDelete.Text = "DEL";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(290, 338);
+            this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.output);
             this.Controls.Add(this.btn_equal);
             this.Controls.Add(this.btn_plus);
@@ -311,7 +323,7 @@ namespace StandardCalculator
             this.Name = "Form1";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "StandardCalculator";
+            this.Text = "Standard Calculator";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -339,6 +351,8 @@ namespace StandardCalculator
         private System.Windows.Forms.Button btn_equal;
         private System.Windows.Forms.TextBox output;
         private System.Windows.Forms.Button btn_minus;
+        private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.Button btnDEL;
     }
 }
 
