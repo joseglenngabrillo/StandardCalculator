@@ -29,9 +29,9 @@ namespace StandardCalculator
 
         private void btnNumber_Click(object sender, EventArgs e)
         {
-
+            Button b = (Button)sender;
+            output.Text = output.Text + b.Text;
         }
-
         private void btnOperator_Click(object sender, EventArgs e)
         {
 
