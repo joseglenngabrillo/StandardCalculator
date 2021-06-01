@@ -29,6 +29,9 @@ namespace StandardCalculator
 
         private void btnNumber_Click(object sender, EventArgs e)
         {
+            if (output.Text == "0")
+                output.Clear();
+
             Button b = (Button)sender;
             output.Text = output.Text + b.Text;
         }
@@ -49,7 +52,7 @@ namespace StandardCalculator
 
         private void btnC_Click(object sender, EventArgs e)
         {
-
+      
         }
     }
 }
