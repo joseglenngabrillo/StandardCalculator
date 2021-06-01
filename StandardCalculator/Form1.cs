@@ -57,7 +57,11 @@ namespace StandardCalculator
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-
+            int length = output.TextLength - 1;
+            string text = output.Text;
+            output.Clear();
+            for (int i = 0; i < length; i++)
+                output.Text = output.Text + text[i];
         }
     }
 }
