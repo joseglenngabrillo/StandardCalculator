@@ -52,7 +52,7 @@ namespace StandardCalculator
 
         private void btnC_Click(object sender, EventArgs e)
         {
-      
+            output.Text = "0";
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
