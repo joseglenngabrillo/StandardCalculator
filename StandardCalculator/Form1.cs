@@ -12,6 +12,7 @@ namespace StandardCalculator
 {
     public partial class Form1 : Form
     {
+        Double value = 0;
         public Form1()
         {
             InitializeComponent();
@@ -53,6 +54,7 @@ namespace StandardCalculator
         private void btnC_Click(object sender, EventArgs e)
         {
             output.Text = "0";
+            value = 0;
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
