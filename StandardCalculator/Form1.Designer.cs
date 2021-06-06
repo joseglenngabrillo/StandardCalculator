@@ -49,6 +49,7 @@ namespace StandardCalculator
             this.btn_equal = new System.Windows.Forms.Button();
             this.output = new System.Windows.Forms.TextBox();
             this.btnDelete = new System.Windows.Forms.Button();
+            this.equation = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnCE
@@ -294,12 +295,22 @@ namespace StandardCalculator
             this.btnDelete.UseVisualStyleBackColor = true;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
+            // equation
+            // 
+            this.equation.AutoSize = true;
+            this.equation.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.equation.Location = new System.Drawing.Point(20, 13);
+            this.equation.Name = "equation";
+            this.equation.Size = new System.Drawing.Size(0, 20);
+            this.equation.TabIndex = 21;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(290, 338);
+            this.Controls.Add(this.equation);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.output);
             this.Controls.Add(this.btn_equal);
@@ -354,6 +365,7 @@ namespace StandardCalculator
         private System.Windows.Forms.Button btn_minus;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnDEL;
+        private System.Windows.Forms.Label equation;
     }
 }
 

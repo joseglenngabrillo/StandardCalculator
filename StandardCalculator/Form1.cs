@@ -13,6 +13,8 @@ namespace StandardCalculator
     public partial class Form1 : Form
     {
         Double value = 0;
+        String operation = "";
+        
         public Form1()
         {
             InitializeComponent();
@@ -32,18 +34,18 @@ namespace StandardCalculator
         {
             if (output.Text == "0")
                 output.Clear();
-
+            
             Button b = (Button)sender;
             output.Text = output.Text + b.Text;
         }
         private void btnOperator_Click(object sender, EventArgs e)
         {
-
+  
         }
 
         private void btnEqual_Click(object sender, EventArgs e)
         {
-
+ 
         }
 
         private void btnCE_Click(object sender, EventArgs e)
