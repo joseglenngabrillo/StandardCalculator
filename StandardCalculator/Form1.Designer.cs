@@ -50,6 +50,7 @@ namespace StandardCalculator
             this.output = new System.Windows.Forms.TextBox();
             this.btnDelete = new System.Windows.Forms.Button();
             this.equation = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnCE
@@ -276,7 +277,7 @@ namespace StandardCalculator
             // output
             // 
             this.output.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.output.Location = new System.Drawing.Point(20, 13);
+            this.output.Location = new System.Drawing.Point(24, 68);
             this.output.Name = "output";
             this.output.Size = new System.Drawing.Size(247, 29);
             this.output.TabIndex = 19;
@@ -304,12 +305,21 @@ namespace StandardCalculator
             this.equation.Size = new System.Drawing.Size(0, 20);
             this.equation.TabIndex = 21;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(24, 17);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 15);
+            this.label1.TabIndex = 22;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(290, 338);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.equation);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.output);
@@ -366,6 +376,7 @@ namespace StandardCalculator
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnDEL;
         private System.Windows.Forms.Label equation;
+        private System.Windows.Forms.Label label1;
     }
 }
 
