@@ -33,7 +33,7 @@ namespace StandardCalculator
 
         private void btnNumber_Click(object sender, EventArgs e)
         {
-            if (output.Text == "0")
+            if ((output.Text == "0")||(operation_click))
                 output.Clear();
 
             operation_click = false;
@@ -46,14 +46,22 @@ namespace StandardCalculator
             operation = b.Text;
             value = Double.Parse(output.Text);
             operation_click = true;
+            equation.Text = value + " " + operation;
         }
 
         private void btnEqual_Click(object sender, EventArgs e)
         {
- 
+            equation.Text = "";
+            switch (operation)
+            {
+                case "+":
+                    output.Text = (value + Double.Parse(output.Text)).ToString();
+                    break;
+            }
+
         }
 
-        private void btnCE_Click(object sender, EventArgs e)
+            private void btnCE_Click(object sender, EventArgs e)
         {
             output.Text = "0";
         }
