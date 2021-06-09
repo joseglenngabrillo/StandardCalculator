@@ -57,6 +57,9 @@ namespace StandardCalculator
                 case "+":
                     output.Text = (value + Double.Parse(output.Text)).ToString();
                     break;
+                case "-":
+                    output.Text = (value - Double.Parse(output.Text)).ToString();
+                    break;
             }
 
         }
