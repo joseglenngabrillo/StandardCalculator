@@ -38,8 +38,13 @@ namespace StandardCalculator
 
             operation_click = false;
             Button b = (Button)sender;
-           
-            output.Text = output.Text + b.Text;
+            if (b.Text == ".")
+            {
+                if(!output.Text.Contains("."))
+                    output.Text = output.Text + b.Text;
+            }
+            else
+                output.Text = output.Text + b.Text;
         }
         private void btnOperator_Click(object sender, EventArgs e)
         {
