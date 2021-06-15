@@ -49,10 +49,21 @@ namespace StandardCalculator
         private void btnOperator_Click(object sender, EventArgs e)
         {
             Button b = (Button)sender;
-            operation = b.Text;
-            value = Double.Parse(output.Text);
-            operation_click = true;
-            equation.Text = value + " " + operation;
+
+            if (value != 0)
+            {
+                btn_equal.PerformClick();
+                operation_click = true;
+                operation = b.Text;
+                equation.Text = value + " " + operation;
+            }
+            else
+            {
+                operation = b.Text;
+                value = Double.Parse(output.Text);
+                operation_click = true;
+                equation.Text = value + " " + operation;
+            }
         }
 
         private void btnEqual_Click(object sender, EventArgs e)
@@ -72,8 +83,9 @@ namespace StandardCalculator
                 case "x":
                     output.Text = (value * Double.Parse(output.Text)).ToString();
                     break;
-            }
-
+            }// end
+            value = Int32.Parse(output.Text);
+            operation = "";
         }
 
             private void btnCE_Click(object sender, EventArgs e)
