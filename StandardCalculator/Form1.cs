@@ -84,6 +84,7 @@ namespace StandardCalculator
                     output.Text = (value * Double.Parse(output.Text)).ToString();
                     break;
             }// end
+
             value = Int32.Parse(output.Text);
             operation = "";
         }
