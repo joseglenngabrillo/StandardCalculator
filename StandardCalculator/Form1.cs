@@ -108,5 +108,10 @@ namespace StandardCalculator
             for (int i = 0; i < length; i++)
                 output.Text = output.Text + text[i];
         }
+
+        private void Form1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+        }
     }
 }
