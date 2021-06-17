@@ -332,6 +332,7 @@ namespace StandardCalculator
             this.Controls.Add(this.btn1);
             this.Controls.Add(this.btnC);
             this.Controls.Add(this.btnCE);
+            this.KeyPreview = true;
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.ShowIcon = false;

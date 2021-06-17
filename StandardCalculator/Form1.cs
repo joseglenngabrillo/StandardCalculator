@@ -111,7 +111,14 @@ namespace StandardCalculator
 
         private void Form1_KeyPress(object sender, KeyPressEventArgs e)
         {
-
+            switch (e.KeyChar.ToString())
+            {
+                case "0":
+                    btn0.PerformClick();
+                    break;
+                default:
+                    break;
+            }
         }
     }
 }
