@@ -119,6 +119,9 @@ namespace StandardCalculator
                 case "1":
                     btn1.PerformClick();
                     break;
+                case "2":
+                    btn2.PerformClick();
+                    break;
                 default:
                     break;
             }
