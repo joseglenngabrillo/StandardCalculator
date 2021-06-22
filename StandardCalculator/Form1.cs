@@ -146,6 +146,9 @@ namespace StandardCalculator
                 case "+":
                     btn_plus.PerformClick();
                     break;
+                case "-":
+                    btn_minus.PerformClick();
+                    break;
                 default:
                     break;
             }
