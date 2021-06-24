@@ -149,6 +149,9 @@ namespace StandardCalculator
                 case "-":
                     btn_minus.PerformClick();
                     break;
+                case "/":
+                    btn_divide.PerformClick();
+                    break;
                 default:
                     break;
             }
