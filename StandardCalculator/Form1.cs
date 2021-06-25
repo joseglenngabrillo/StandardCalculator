@@ -152,6 +152,9 @@ namespace StandardCalculator
                 case "/":
                     btn_divide.PerformClick();
                     break;
+                case "x":
+                    btn_times.PerformClick();
+                    break;
                 default:
                     break;
             }
