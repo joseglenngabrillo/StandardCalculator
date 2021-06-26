@@ -155,6 +155,9 @@ namespace StandardCalculator
                 case "x":
                     btn_times.PerformClick();
                     break;
+                case "=":
+                    btn_equal.PerformClick();
+                    break;
                 default:
                     break;
             }
