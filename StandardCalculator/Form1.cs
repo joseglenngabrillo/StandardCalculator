@@ -98,6 +98,7 @@ namespace StandardCalculator
         {
             output.Text = "0";
             value = 0;
+            equation.Text = "";
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
