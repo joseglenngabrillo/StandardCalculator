@@ -161,7 +161,7 @@ namespace StandardCalculator
                     break;
                 default:
                     break;
-            }
+            }// end
         }
     }
 }
