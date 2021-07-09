@@ -159,6 +159,9 @@ namespace StandardCalculator
                 case "=":
                     btn_equal.PerformClick();
                     break;
+                case "ENTER":
+                    btn_equal.PerformClick();
+                    break;
                 default:
                     break;
             }// end
